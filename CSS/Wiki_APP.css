@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+}
+
+input {
+  visibility: hidden;
+  margin-top: 40%;
+}
+
+.showInput {
+  visibility: visible;
+  margin-top: 40%;
+  border-radius: 5px;
+  border: 3px solid blue;
+}
