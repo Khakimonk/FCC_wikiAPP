@@ -4,12 +4,14 @@ body {
 
 input {
   visibility: hidden;
-  margin-top: 40%;
+  border-color: orange;
 }
-
 .showInput {
   visibility: visible;
-  margin-top: 40%;
+  margin-top: 1%;
   border-radius: 5px;
-  border: 3px solid blue;
+}
+
+#randomBtn {
+  margin-top: 30%;
 }
