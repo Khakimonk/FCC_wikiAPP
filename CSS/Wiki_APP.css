@@ -1,17 +1,24 @@
 body {
-  text-align: center;
+    text-align: center;
 }
-
 input {
-  visibility: hidden;
-  border-color: orange;
+    visibility: hidden;
+    border-color: orange;
 }
 .showInput {
-  visibility: visible;
-  margin-top: 1%;
-  border-radius: 5px;
+    visibility: visible;
+    margin-top: 1%;
+    border-radius: 5px;
 }
-
 #randomBtn {
-  margin-top: 30%;
+    margin-top: 20%;
+}
+#searchToggle {
+    margin-top: 2%;
+    background: inherit;
+    border: none;
+}
+#searchToggle:focus {
+    border: none;
+    outline: none !important;
 }
