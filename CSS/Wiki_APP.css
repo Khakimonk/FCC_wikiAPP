@@ -11,7 +11,7 @@ input {
     border-radius: 5px;
 }
 #randomBtn {
-    margin-top: 20%;
+    margin-top: 5%;
 }
 #searchToggle {
     margin-top: 2%;
@@ -21,4 +21,9 @@ input {
 #searchToggle:focus {
     border: none;
     outline: none !important;
+}
+iframe {
+    width: 80%;
+    height: 700px;
+    border: none;
 }
